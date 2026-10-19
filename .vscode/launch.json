@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter (Dev Chrome - No CORS)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--web-browser-flag",
+        "--disable-web-security",
+        "--web-browser-flag",
+        "--user-data-dir=${workspaceFolder}/chrome_dev_session"
+      ]
+    }
+  ]
+}
